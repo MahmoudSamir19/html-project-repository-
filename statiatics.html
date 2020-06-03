@@ -1,0 +1,337 @@
+<html>
+	<head>
+	<html>
+        <h1>crona statiatics page</h1>
+    
+    <h2> links: </h2>
+    <ul>
+        <li><a href="mainpage.html">main page</a></li>
+        <li><a href="cronacases.html">crona cases</a></li>
+        <li><a href="statiatics.html">statiatics cases</a></li>
+        <li><a href="curves.html">crona curves</a></li> 
+      </ul></br>
+   <h2>This is our new Coronavirus Data Explorer. It brings together our global data on testing for COVID-19, and the counts of confirmed cases and deaths.
+
+    Each metric be seen in a straightforward line chart or in our trajectory charts, which align all countries at the start of the outbreak (here is how to read them). You can also switch to world maps for every metric, simply choose the Map tab below the chart.</h2>
+      <table id="main_table_countries_today" class="table table-bordered table-hover main_table_countries" style="width:100%;margin-top: 0px !important;">
+        <thead>
+        <tr>
+        <th>#</th>
+        <th width="100">Country,<br />Other</th>
+        <th width="20">Total<br />Cases</th>
+        <th width="30">New<br />Cases</th>
+        <th width="30">Total<br />Deaths</th>
+        <th width="30">New<br />Deaths</th>
+         <th width="30">Total<br />Recovered</th>
+        <th width="30">Active<br />Cases</th>
+        <th width="30">Serious,<br />Critical</th>
+        <th width="30">Tot&nbsp;Cases/<br />1M pop</th>
+        <th width="30">Deaths/<br />1M pop</th>
+        <th width="30">Total<br />Tests</th>
+        <th width="30">Tests/<br />
+        <nobr>1M pop</nobr>
+        </th>
+        <th width="30">Population</th>
+        <th style="display:none" width="30">Continent</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr class="total_row_world row_continent" data-continent="North America" style="display: none">
+        <td></td>
+        <td style="text-align:left;">
+        <nobr>North America</nobr>
+        </td>
+        <td>2,033,005</td>
+        <td>+21,029</td>
+        <td>123,132</td>
+        <td>+1,170</td>
+        <td>658,800</td>
+        <td>1,251,073</td>
+        <td>19,430</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td style="display:none;" data-continent="North America">North America</td>
+        </tr>
+        <tr class="total_row_world row_continent" data-continent="South America" style="display: none">
+        <td></td>
+        <td style="text-align:left;">
+        <nobr>South America</nobr>
+        </td>
+        <td>805,837</td>
+        <td>+5,783</td>
+        <td>38,314</td>
+        <td>+136</td>
+        <td>329,752</td>
+        <td>437,771</td>
+        <td>11,248</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td style="display:none;" data-continent="South America">South America</td>
+        </tr>
+        <tr class="total_row_world row_continent" data-continent="Europe" style="display: none">
+        <td></td>
+        <td style="text-align:left;">
+        <nobr>Europe</nobr>
+        </td>
+        <td>2,004,075</td>
+        <td>+17,206</td>
+        <td>173,278</td>
+        <td>+747</td>
+        <td>978,218</td>
+        <td>852,579</td>
+        <td>8,796</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td style="display:none;" data-continent="Europe">Europe</td>
+        </tr>
+        <tr class="total_row_world row_continent" data-continent="Asia" style="display: none">
+        <td></td>
+         <td style="text-align:left;">
+        <nobr>Asia</nobr>
+        </td>
+        <td>1,107,397</td>
+        <td>+26,963</td>
+        <td>30,193</td>
+        <td>+527</td>
+        <td>672,220</td>
+        <td>404,984</td>
+        <td>13,631</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td style="display:none;" data-continent="Asia">Asia</td>
+        </tr>
+        <tr class="total_row_world row_continent" data-continent="Africa" style="display: none">
+        <td></td>
+        <td style="text-align:left;">
+        <nobr>Africa</nobr>
+        </td>
+        <td>142,693</td>
+        <td>+5,149</td>
+        <td>4,070</td>
+        <td>+125</td>
+        <td>60,612</td>
+        <td>78,011</td>
+        <td>353</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td style="display:none;" data-continent="Africa">Africa</td>
+        </tr>
+        <tr class="total_row_world row_continent" data-continent="Australia/Oceania" style="display: none">
+        <td></td>
+        <td style="text-align:left;">
+        <nobr>Oceania</nobr>
+        </td>
+        <td>8,794</td>
+        <td>+12</td>
+        <td>125</td>
+        <td></td>
+        <td>8,188</td>
+        <td>481</td>
+        <td>4</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td style="display:none;" data-continent="Australia/Oceania">Australia/Oceania</td>
+        </tr>
+        <tr class="total_row_world row_continent" data-continent="" style="display: none">
+        <td></td>
+        <td style="text-align:left;">
+        <nobr></nobr>
+        </td>
+        <td>721</td>
+        <td></td>
+        <td>15</td>
+        <td></td>
+        <td>651</td>
+        <td>55</td>
+        <td>4</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td style="display:none;" data-continent=""></td>
+        </tr>
+        <tr class="total_row_world">
+        <td></td>
+        <td style="text-align:left;">World</td>
+        <td>6,102,522</td>
+        <td>+76,142</td>
+         <td>369,127</td>
+        <td>+2,705</td>
+        <td>2,708,441</td>
+        <td>3,024,954</td>
+        <td>53,466</td>
+        <td>783</td>
+        <td>47.4</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td style="display:none" data-continent="all">All</td>
+        </tr>
+        <tr style="">
+        <td style="font-size:12px;color: grey;text-align:center;vertical-align:middle;">1</td>
+        <td style="font-weight: bold; font-size:15px; text-align:left;"><a class="mt_a" href="country/us/">USA</a></td>
+        <td style="font-weight: bold; text-align:right">1,809,885</td>
+        <td style="font-weight: bold; text-align:right;background-color:#FFEEAA;">+16,355</td>
+        <td style="font-weight: bold; text-align:right;">105,231 </td>
+        <td style="font-weight: bold; 
+                                            text-align:right;background-color:red; color:white">+689</td>
+        <td style="font-weight: bold; text-align:right">527,995</td>
+        <td style="text-align:right;font-weight:bold;">1,176,659</td>
+        <td style="font-weight: bold; text-align:right">17,165</td>
+        <td style="font-weight: bold; text-align:right">5,471</td>
+        <td style="font-weight: bold; text-align:right">318</td>
+        <td style="font-weight: bold; text-align:right">17,088,444</td>
+        <td style="font-weight: bold; text-align:right">51,653</td>
+        <td style="font-weight: bold; text-align:right"><a href="/world-population/us-population/">330,832,890</a> </td>
+        <td style="display:none" data-continent="North America">North America</td>
+        </tr>
+        <tr style="">
+        <td style="font-size:12px;color: grey;text-align:center;vertical-align:middle;">2</td>
+        <td style="font-weight: bold; font-size:15px; text-align:left;"><a class="mt_a" href="country/brazil/">Brazil</a></td>
+        <td style="font-weight: bold; text-align:right">469,510</td>
+        <td style="font-weight: bold; text-align:right;background-color:#FFEEAA;">+1,172</td>
+        <td style="font-weight: bold; text-align:right;">28,015 </td>
+        <td style="font-weight: bold; 
+                                            text-align:right;background-color:red; color:white">+71</td>
+        <td style="font-weight: bold; text-align:right">193,181</td>
+        <td style="text-align:right;font-weight:bold;">248,314</td>
+        <td style="font-weight: bold; text-align:right">8,318</td>
+        <td style="font-weight: bold; text-align:right">2,210</td>
+        <td style="font-weight: bold; text-align:right">132</td>
+        <td style="font-weight: bold; text-align:right">930,013</td>
+        <td style="font-weight: bold; text-align:right">4,378</td>
+         <td style="font-weight: bold; text-align:right"><a href="/world-population/brazil-population/">212,426,274</a> </td>
+        <td style="display:none" data-continent="South America">South America</td>
+        </tr>
+        <tr style="">
+        <td style="font-size:12px;color: grey;text-align:center;vertical-align:middle;">3</td>
+        <td style="font-weight: bold; font-size:15px; text-align:left;"><a class="mt_a" href="country/russia/">Russia</a></td>
+        <td style="font-weight: bold; text-align:right">396,575</td>
+        <td style="font-weight: bold; text-align:right;background-color:#FFEEAA;">+8,952</td>
+        <td style="font-weight: bold; text-align:right;">4,555 </td>
+        <td style="font-weight: bold; 
+                                            text-align:right;background-color:red; color:white">+181</td>
+        <td style="font-weight: bold; text-align:right">167,469</td>
+        <td style="text-align:right;font-weight:bold;">224,551</td>
+        <td style="font-weight: bold; text-align:right">2,300</td>
+        <td style="font-weight: bold; text-align:right">2,718</td>
+        <td style="font-weight: bold; text-align:right">31</td>
+        <td style="font-weight: bold; text-align:right">10,316,200</td>
+        <td style="font-weight: bold; text-align:right">70,693</td>
+        <td style="font-weight: bold; text-align:right"><a href="/world-population/russia-population/">145,929,167</a> </td>
+        <td style="display:none" data-continent="Europe">Europe</td>
+        </tr>
+        <tr style="">
+        <td style="font-size:12px;color: grey;text-align:center;vertical-align:middle;">4</td>
+        <td style="font-weight: bold; font-size:15px; text-align:left;"><a class="mt_a" href="country/spain/">Spain</a></td>
+        <td style="font-weight: bold; text-align:right">286,308</td>
+        <td style="font-weight: bold; text-align:right;background-color:#FFEEAA;">+664</td>
+        <td style="font-weight: bold; text-align:right;">27,125 </td>
+        <td style="font-weight: bold; 
+                                            text-align:right;background-color:red; color:white">+4</td>
+        <td style="font-weight: bold; text-align:right">196,958</td>
+        <td style="text-align:right;font-weight:bold;">62,225</td>
+        <td style="font-weight: bold; text-align:right">617</td>
+        <td style="font-weight: bold; text-align:right">6,124</td>
+        <td style="font-weight: bold; text-align:right">580</td>
+        <td style="font-weight: bold; text-align:right">3,556,567</td>
+        <td style="font-weight: bold; text-align:right">76,071</td>
+        <td style="font-weight: bold; text-align:right"><a href="/world-population/spain-population/">46,753,246</a> </td>
+        <td style="display:none" data-continent="Europe">Europe</td>
+         </tr>
+        <tr style="">
+        <td style="font-size:12px;color: grey;text-align:center;vertical-align:middle;">5</td>
+        <td style="font-weight: bold; font-size:15px; text-align:left;"><a class="mt_a" href="country/uk/">UK</a></td>
+        <td style="font-weight: bold; text-align:right">272,826</td>
+        <td style="font-weight: bold; text-align:right;background-color:#FFEEAA;">+1,604</td>
+        <td style="font-weight: bold; text-align:right;">38,376 </td>
+        <td style="font-weight: bold; 
+                                            text-align:right;background-color:red; color:white">+215</td>
+        <td style="font-weight: bold; text-align:right">N/A</td>
+        <td style="text-align:right;font-weight:bold;">N/A</td>
+        <td style="font-weight: bold; text-align:right">1,559</td>
+        <td style="font-weight: bold; text-align:right">4,021</td>
+        <td style="font-weight: bold; text-align:right">566</td>
+        <td style="font-weight: bold; text-align:right">4,043,686</td>
+        <td style="font-weight: bold; text-align:right">59,593</td>
+        <td style="font-weight: bold; text-align:right"><a href="/world-population/uk-population/">67,854,937</a> </td>
+        <td style="display:none" data-continent="Europe">Europe</td>
+        </tr>
+        <tr style="">
+        <td style="font-size:12px;color: grey;text-align:center;vertical-align:middle;">6</td>
+        <td style="font-weight: bold; font-size:15px; text-align:left;"><a class="mt_a" href="country/italy/">Italy</a></td>
+        <td style="font-weight: bold; text-align:right">232,664</td>
+        <td style="font-weight: bold; text-align:right;background-color:#FFEEAA;">+416</td>
+        <td style="font-weight: bold; text-align:right;">33,340 </td>
+        <td style="font-weight: bold; 
+                                            text-align:right;background-color:red; color:white">+111</td>
+        <td style="font-weight: bold; text-align:right">155,633</td>
+        <td style="text-align:right;font-weight:bold;">43,691</td>
+        <td style="font-weight: bold; text-align:right">450</td>
+        <td style="font-weight: bold; text-align:right">3,848</td>
+        <td style="font-weight: bold; text-align:right">551</td>
+        <td style="font-weight: bold; text-align:right">3,824,621</td>
+        <td style="font-weight: bold; text-align:right">63,249</td>
+        <td style="font-weight: bold; text-align:right"><a href="/world-population/italy-population/">60,469,262</a> </td>
+        <td style="display:none" data-continent="Europe">Europe</td>
+        </tr>
+        <tr style="">
+        <td style="font-size:12px;color: grey;text-align:center;vertical-align:middle;">7</td>
+        <td style="font-weight: bold; font-size:15px; text-align:left;"><a class="mt_a" href="country/france/">France</a></td>
+        <td style="font-weight: bold; text-align:right">188,625</td>
+        <td style="font-weight: bold; text-align:right;background-color:#FFEEAA;">+1,828</td>
+        <td style="font-weight: bold; text-align:right;">28,771 </td>
+        <td style="font-weight: bold; 
+                                            text-align:right;background-color:red; color:white">+57</td>
+        <td style="font-weight: bold; text-align:right">68,268</td>
+        <td style="text-align:right;font-weight:bold;">91,586</td>
+        <td style="font-weight: bold; text-align:right">1,325</td>
+        <td style="font-weight: bold; text-align:right">2,890</td>
+        <td style="font-weight: bold; text-align:right">441</td>
+        <td style="font-weight: bold; text-align:right">1,384,633</td>
+        <td style="font-weight: bold; text-align:right">21,217</td>
+        <td style="font-weight: bold; text-align:right"><a href="/world-population/france-population/">65,261,155</a> </td>
+         <td style="display:none" data-continent="Europe">Europe</td>
+        </tr>
+        <tr style="">
+        <td style="font-size:12px;color: grey;text-align:center;vertical-align:middle;">8</td>
+        <td style="font-weight: bold; font-size:15px; text-align:left;"><a class="mt_a" href="country/germany/">Germany</a></td>
+        <td style="font-weight: bold; text-align:right">183,149</td>
+        <td style="font-weight: bold; text-align:right;background-color:#FFEEAA;">+130</td>
+        <td style="font-weight: bold; text-align:right;">8,598 </td>
+        <td style="font-weight: bold; 
+                                            text-align:right;background-color:red; color:white">+4</td>
+        <td style="font-weight: bold; text-align:right">164,900</td>
+        <td style="text-align:right;font-weight:bold;">9,651</td>
+        <td style="font-weight: bold; text-align:right">720</td>
+        <td style="font-weight: bold; text-align:right">2,187</td>
+        <td style="font-weight: bold; text-align:right">103</td>
+        <td style="font-weight: bold; text-align:right">3,952,971</td>
+        <td style="font-weight: bold; text-align:right">47,194</td>
+        <td style="font-weight: bold; text-align:right"><a href="/world-population/germany-population/">83,760,886</a> </td>
+        <td style="display:none" data-continent="Europe">Europe</td>
+        </tr>
+        
+        </tbody>
+      </table>
+		</body>
+	</html>
